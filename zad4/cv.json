@@ -1,0 +1,31 @@
+{
+  "name": "Jan Kowalski",
+  "role": "Junior Frontend Developer",
+  "github": "https://github.com",
+  "email": "jan.kowalski@example.com",
+  "about": "Początkujący programista webowy z pasją do tworzenia przejrzystych, dostępnych i responsywnych stron internetowych. Szukam pierwszego doświadczenia komercyjnego jako Frontend Developer.",
+  "experience": [
+    {
+      "position": "Stażysta Web Developer",
+      "company": "Studio Webowe XYZ",
+      "period": "07.2025 – 09.2025",
+      "description": "Tworzenie prostych podstron w HTML i CSS, poprawa responsywności istniejących szablonów oraz podstawowa obsługa formularzy w JavaScript."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Informatyka (Studia inżynierskie)",
+      "school": "Politechnika Warszawska",
+      "period": "2023 – obecnie",
+      "details": "Specjalizacja: Technologie internetowe i mobilne."
+    }
+  ],
+  "skills": [
+    "HTML5",
+    "CSS3 (Flexbox & Grid)",
+    "JavaScript (ES6+)",
+    "Fetch API & JSON",
+    "Git & GitHub",
+    "Responsive Web Design"
+  ]
+}

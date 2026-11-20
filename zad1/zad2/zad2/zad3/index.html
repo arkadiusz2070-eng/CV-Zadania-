@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jan Kowalski - CV (Interaktywne)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-info">
+                <h1>Jan Kowalski</h1>
+                <p class="subtitle">Junior Frontend Developer</p>
+            </div>
+            <div class="header-actions">
+                <button id="theme-toggle" class="btn" type="button">Tryb ciemny</button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+            </div>
+        </header>
+
+        <main class="cv-grid">
+            <section class="card full-width">
+                <div class="card-header">
+                    <h2>O mnie</h2>
+                    <button class="toggle-section-btn" type="button">Zwiń</button>
+                </div>
+                <div class="card-content">
+                    <p>Początkujący programista webowy z pasją do tworzenia przejrzystych, dostępnych i responsywnych stron internetowych. Szukam pierwszego doświadczenia komercyjnego jako Frontend Developer.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>Doświadczenie</h2>
+                    <button class="toggle-section-btn" type="button">Zwiń</button>
+                </div>
+                <div class="card-content">
+                    <article class="item">
+                        <h3>Stażysta Web Developer</h3>
+                        <p class="meta">Studio Webowe XYZ | 07.2025 – 09.2025</p>
+                        <p>Tworzenie prostych podstron w HTML i CSS, poprawa responsywności istniejących szablonów oraz podstawowa obsługa formularzy w JavaScript.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>Wykształcenie</h2>
+                    <button class="toggle-section-btn" type="button">Zwiń</button>
+                </div>
+                <div class="card-content">
+                    <article class="item">
+                        <h3>Informatyka (Studia inżynierskie)</h3>
+                        <p class="meta">Politechnika Warszawska | 2023 – obecnie</p>
+                        <p>Specjalizacja: Technologie internetowe i mobilne.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="card full-width">
+                <div class="card-header">
+                    <h2>Umiejętności</h2>
+                    <button class="toggle-section-btn" type="button">Zwiń</button>
+                </div>
+                <div class="card-content">
+                    <div class="filter-bar">
+                        <input type="text" id="skill-filter" placeholder="Filtruj umiejętności (np. CSS, Git)...">
+                    </div>
+                    <ul class="skills-list" id="skills-list">
+                        <li>HTML5</li>
+                        <li>CSS3 (Flexbox & Grid)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Git & GitHub</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Jan Kowalski</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
